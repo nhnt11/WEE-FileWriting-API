@@ -1,0 +1,38 @@
+{
+  "name": "WEE-FileWriting-API",
+  "description": "Provides a WebExtension interface to write some text to a file.",
+  "version": "1.0.0",
+  "author": "Nihanth Subramanya",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-import": "^2.5.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mozilla": "^0.14.0",
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    "npm-run-all": "^4.1.1",
+    "web-ext": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "homepage": "",
+  "keywords": [
+    "firefox",
+    "mozilla",
+    "webextension",
+    "experiment",
+    "file",
+    "io"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhnt11/WEE-FileWriting-API"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext jsm,js,json",
+    "lint": "npm-run-all lint:*",
+    "lint:eslint": "npm run eslint",
+    "lint:web-ext-lint": "web-ext lint"
+  }
+}
