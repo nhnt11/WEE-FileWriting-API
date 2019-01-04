@@ -1,3 +1,3 @@
-# FileWriting WebExtension Experiment
+# ProfileDirIO WebExtension Experiment
 
-Provides a minimal WebExtension API to write some text to a file in the profile directory.
+Provides a minimal WebExtension API to read and write files in the profile directory.
