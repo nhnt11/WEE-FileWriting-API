@@ -1,6 +1,6 @@
 {
-  "name": "WEE-FileWriting-API",
-  "description": "Provides a WebExtension interface to write some text to a file in the profile directory.",
+  "name": "WEE-ProfileDirIO-API",
+  "description": "Provides a WebExtension interface to read and write files in the profile directory.",
   "version": "1.0.0",
   "author": "Nihanth Subramanya",
   "devDependencies": {
@@ -27,7 +27,7 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhnt11/WEE-FileWriting-API"
+    "url": "https://github.com/nhnt11/WEE-ProfileDirIO-API"
   },
   "scripts": {
     "eslint": "eslint . --ext jsm,js,json",
