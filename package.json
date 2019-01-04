@@ -1,6 +1,6 @@
 {
   "name": "WEE-FileWriting-API",
-  "description": "Provides a WebExtension interface to write some text to a file.",
+  "description": "Provides a WebExtension interface to write some text to a file in the profile directory.",
   "version": "1.0.0",
   "author": "Nihanth Subramanya",
   "devDependencies": {

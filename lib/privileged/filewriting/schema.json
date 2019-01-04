@@ -9,7 +9,7 @@
         "parameters": [
           {
             "type": "string",
-            "name": "path"
+            "name": "filename"
           },
           {
             "type": "string",
